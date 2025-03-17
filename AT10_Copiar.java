@@ -24,7 +24,7 @@ public class AT10_Copiar {
         System.out.println(animais1);
 
         do{
-        System.out.println("Deseja adicionar um animal?");
+        System.out.println("Adicione um animal?");
         animaisNovos = tc.nextLine();
         animais1.add(animaisNovos);
         System.out.println(animais1);
