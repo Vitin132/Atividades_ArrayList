@@ -27,7 +27,7 @@ public class AT8_ListaDePaises {
             System.out.println("Digite o nome de outros países: ");
             String pais = tc.nextLine();
             paises.add(pais);
-            i++;
+            
             System.out.println(paises);
             
             
