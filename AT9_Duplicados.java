@@ -18,8 +18,8 @@ public class AT9_Duplicados {
         
         Collections.addAll(duplicatas, 5, 5, 7, 25, 30, 30, 50, 100);
         HashSet<Integer> numeros = new HashSet<>(duplicatas); 
-        boolean hashDuplicatas = numeros.size() != numeros.size();
-        int num;
+        boolean hashDuplicatas = numeros.size() != duplicatas.size();
+       
         
         
         System.out.println("Lista com duplicatas:");
